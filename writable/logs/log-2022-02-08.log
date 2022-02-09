@@ -1,0 +1,63 @@
+ERROR - 2022-02-08 11:30:32 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-02-08 11:30:32 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-08 11:32:06 --> Undefined array key "password"
+#0 C:\xampp\htdocs\login\app\Controllers\SigninController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#2 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#3 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-08 21:58:47 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-02-08 21:58:47 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-08 21:59:59 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-02-08 21:59:59 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-08 22:01:29 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-02-08 22:01:29 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

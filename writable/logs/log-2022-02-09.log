@@ -1,0 +1,169 @@
+CRITICAL - 2022-02-09 00:52:37 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\login\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('1')
+#4 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 00:55:11 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\login\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('2')
+#4 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 00:59:08 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\login\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\login\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('1')
+#4 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-09 02:14:19 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:14:19 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 02:19:00 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:19:00 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 02:29:23 --> Undefined array key "password"
+#0 C:\xampp\htdocs\login\app\Controllers\SigninController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#2 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#3 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 02:29:27 --> Undefined array key "password"
+#0 C:\xampp\htdocs\login\app\Controllers\SigninController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#2 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#3 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-09 02:35:29 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:35:29 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 02:46:31 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:46:31 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 02:52:09 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:52:09 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 02:53:23 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:53:23 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 02:57:47 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 02:57:47 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 03:21:13 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-09 03:21:13 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
